@@ -11,5 +11,17 @@ def loadregions():
             regionIds.append(ids)
             regionNames.append(names)
 loadregions()
-print(regionNames)
-print(regionIds)
+
+count = 1
+while (count < (len(regionIds)-1)):
+    print(repr(count) + ': ' + repr(regionNames[count]))
+    count = count + 1
+
+regionSelect = int(input('Select region: '))
+
+
+useRegion = regionIds[regionSelect]
+useRegionName = regionNames[regionSelect]
+
+print("You selected " + repr(useRegionName) + ", region ID " + repr(useRegion))
+

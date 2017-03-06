@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1a4ff7b-33f5-4f1b-bf85-19633cea21b5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mapRegions.csv" afterPath="$PROJECT_DIR$/resources/mapRegions.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mapSolarSystems.csv" afterPath="$PROJECT_DIR$/resources/mapSolarSystems.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/regioncall.py" afterPath="$PROJECT_DIR$/source/regioncall.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="regioncall.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/regioncall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1536">
-              <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+            <state relative-caret-position="649">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -345,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488410468604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tfw no mems">
+      <created>1488771492047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488771492047</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -386,7 +390,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.0.1" />
     <MESSAGE value="v1.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.0.2" />
+    <MESSAGE value="tfw no mems" />
+    <option name="LAST_COMMIT_MESSAGE" value="tfw no mems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -475,8 +480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/regioncall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        <state relative-caret-position="649">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding />
         </state>
       </provider>

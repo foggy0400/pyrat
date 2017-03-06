@@ -1,22 +1,27 @@
+#Importing csv library and declaring containers for region info
 import csv
-regionIds = regionNames = []
+regionIds = []
+regionNames = []
 
+#Defining function to load the region IDs into an array
 def loadRegionIds():
-    with open('mapRegions.csv', newline='') as csvfile:
+    with open('../resources/mapRegions.csv', newline='') as csvfile:
         idlist = csv.reader(csvfile, delimiter=',', quotechar='|')
         for row in idlist:
             ids = row[0]
             regionIds.append(ids)
-            return regionIds
+        return regionIds
 
+#Defining function to load the region names into an array
 def loadRegionNames():
-    with open('mapRegions.csv', newline='') as csvfile:
+    with open('../resources/mapRegions.csv', newline='') as csvfile:
         namelist = csv.reader(csvfile, delimiter=',', quotechar='|')
         for row in namelist:
             names = row[1]
             regionNames.append(names)
-            return regionNames
+        return regionNames
 
+#Defining function to query the user for the region they wish to analyse
 def queryRegion(ids, names):
     count = 1
     while (count < (len(ids)-1)):
@@ -26,8 +31,3 @@ def queryRegion(ids, names):
     useRegion = ids[regionSelect]
     useRegionName = names[regionSelect]
     print("You selected " + repr(useRegionName) + ", region ID " + repr(useRegion))
-
-idcontainer = loadRegionIds()
-namecontainer = loadRegionNames()
-queryRegion(idcontainer, namecontainer)
-

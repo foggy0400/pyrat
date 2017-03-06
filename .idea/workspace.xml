@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a4ff7b-33f5-4f1b-bf85-19633cea21b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Billy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/listsystems.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/pyrat.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Regional Ratting Analyser.iml" afterPath="$PROJECT_DIR$/.idea/Regional Ratting Analyser.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/regioncall.py" afterPath="$PROJECT_DIR$/source/regioncall.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listsystems.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listsystems.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/listsystems.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -60,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -91,9 +85,9 @@
         <option value="$PROJECT_DIR$/source/systemcall.py" />
         <option value="$PROJECT_DIR$/source/systempull.py" />
         <option value="$PROJECT_DIR$/source/pyrat.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/source/regioncall.py" />
         <option value="$PROJECT_DIR$/source/listsystems.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -410,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1488771492047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improved regioncall.py (condensed code, formatted and commented)&#10;Added listsystems.py and pyrat.py&#10;Added .gitignore, Project_Default.xml and dictionary file">
+      <created>1488794070813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488794070813</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixing gitignore">
+      <created>1488794318957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1488794318958</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -452,7 +460,9 @@
     <MESSAGE value="v1.0.1" />
     <MESSAGE value="v1.0.2" />
     <MESSAGE value="tfw no mems" />
-    <option name="LAST_COMMIT_MESSAGE" value="tfw no mems" />
+    <MESSAGE value="Improved regioncall.py (condensed code, formatted and commented)&#10;Added listsystems.py and pyrat.py&#10;Added .gitignore, Project_Default.xml and dictionary file" />
+    <MESSAGE value="Fixing gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -517,14 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/regioncall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
@@ -545,6 +547,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>

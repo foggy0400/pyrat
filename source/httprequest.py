@@ -17,15 +17,12 @@
 # If you need to, contact me on reddit @ /u/instigo
 ######################################################################
 
+# Delete these later when pyrat.py is done
 import regioncall
 import listsystems
+# not these lol
 from ratelimit import rate_limited
+import urllib.request
 
-@rate_limited(1)
-def test(num):
-    count = 1
-    while count <= num:
-        print(count)
-        count += 1
-
-test(10)
+systems = listsystems.pull_systems(regioncall.query_region())
+print(systems)

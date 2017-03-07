@@ -4,15 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1a4ff7b-33f5-4f1b-bf85-19633cea21b5" name="Default" comment="Fixing gitignore again again">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Regional Ratting Analyser.iml" afterPath="$PROJECT_DIR$/.idea/Regional Ratting Analyser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+    <list default="true" id="f1a4ff7b-33f5-4f1b-bf85-19633cea21b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/httprequest.py" afterPath="$PROJECT_DIR$/source/httprequest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/listsystems.py" afterPath="$PROJECT_DIR$/source/listsystems.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/pyrat.py" afterPath="$PROJECT_DIR$/source/pyrat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/regioncall.py" afterPath="$PROJECT_DIR$/source/regioncall.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="httprequest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="httprequest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/httprequest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -72,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -102,11 +96,11 @@
         <option value="$PROJECT_DIR$/source/pullsystems" />
         <option value="$PROJECT_DIR$/source/systemcall.py" />
         <option value="$PROJECT_DIR$/source/systempull.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/source/pyrat.py" />
         <option value="$PROJECT_DIR$/source/regioncall.py" />
         <option value="$PROJECT_DIR$/source/listsystems.py" />
         <option value="$PROJECT_DIR$/source/httprequest.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -471,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488794936466</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Wrote code to list systems, beginning work on API function&#10;&#10;Added GNU license to files">
+      <created>1488849984928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1488849984928</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -517,7 +518,8 @@
     <MESSAGE value="Fixing gitignore" />
     <MESSAGE value="Fixing gitignore again" />
     <MESSAGE value="Fixing gitignore again again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing gitignore again again" />
+    <MESSAGE value="Wrote code to list systems, beginning work on API function&#10;&#10;Added GNU license to files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote code to list systems, beginning work on API function&#10;&#10;Added GNU license to files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -593,14 +595,6 @@
     <entry file="file://$PROJECT_DIR$/source/pullsystems" />
     <entry file="file://$PROJECT_DIR$/source/systemcall.py" />
     <entry file="file://$PROJECT_DIR$/source/systempull.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/pyrat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -632,6 +626,14 @@
           <folding>
             <element signature="e#908#925#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

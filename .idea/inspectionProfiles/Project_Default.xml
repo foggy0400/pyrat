@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="regioncall" />
+          <option value="listsystems" />
         </list>
       </option>
     </inspection_tool>
